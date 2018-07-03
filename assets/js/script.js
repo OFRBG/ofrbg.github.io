@@ -18,17 +18,19 @@
 
     // Progress Bar
     $('.lead-bar').each(function () {
-        window.web3.eth.getBalance(window.web3.eth.coinbase, (e,v) => {
-            let curAmount = v.c[0]/100;
-            
-            let goal = $(this).attr("amount");
-            let width = curAmount / goal;
+        if(window.web3){
+            window.web3.eth.getBalance(window.web3.eth.coinbase, (e,v) => {
+                let curAmount = v.c[0]/100;
 
-            let percentage = Math.ceil(width * $(this).parent().width());
-            $(this).width(percentage);
+                let goal = $(this).attr("amount");
+                let width = curAmount / goal;
 
-            $(this).text(curAmount + " ETH");
-        });
+                let percentage = Math.ceil(width * $(this).parent().width());
+                $(this).width(percentage);
+
+                $(this).text(curAmount + " ETH");
+            });
+        }
     });
 
     // Sticky

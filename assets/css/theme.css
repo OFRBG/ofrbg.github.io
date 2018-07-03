@@ -4,6 +4,7 @@ Preset   :	Default
 Version	 :	1.2.4
 Updated	 :	06.13.2018
 */
+/*
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary { color: #7a0fff; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary { color: #46bdf4; }
 
@@ -329,6 +330,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .footer-lavendar { background: #5d46e8; }
 
 .social-bar li a { color: #5d46e8; }
+*/
 
 .theme-muscari { background: #fff; }
 .theme-muscari .countdown-box { background: #3455ff; }
@@ -385,6 +387,7 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .theme-muscari .link-widget li a, .theme-muscari .footer-links li a { color: rgba(255, 255, 255, 0.6); }
 .theme-muscari .link-widget li a:hover, .theme-muscari .footer-links li a:hover { color: #fff; }
 
+/*
 .header-angle-bg { background: #3455ff; }
 
 .section-head-s5 .section-title:after { background: #39a9ff; }
@@ -425,5 +428,6 @@ a:hover, a:focus, a:active { color: #8255fd; }
 .team-circle-social li a:hover { color: #2b56f5; }
 
 .io-lobelia .sub-heading { color: #46bdf4; }
+*/
 
 /*! END */
