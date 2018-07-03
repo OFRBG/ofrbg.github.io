@@ -786,8 +786,8 @@ select:focus { outline: none; border: none; }
 .language-switcher .dropdown-item:hover { color: #46bdf4; background: transparent; }
 .footer-scetion .language-switcher > a:after { top: 0; }
 
-.navbar-toggler { margin-right: 15px; padding: 0 5px; color: #fff; border-radius: 2px; border: none; transition: all .5s ease; background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
-.navbar-toggler:hover { background: linear-gradient(to right, #2b56f5 0%, #46bdf4 100%); }
+.navbar-toggler { margin-right: 15px; padding: 0 5px; color: #fff; border-radius: 2px; border: none; transition: all .5s ease; background: linear-gradient(to right, var(--bg) 0%, var(--bg-alt) 100%)); }
+.navbar-toggler:hover { background: linear-gradient(to right, var(--bg) 0%, var(--bg-alt) 100%); }
 .navbar-toggler:focus { outline: none; }
 .navbar-toggler-icon { line-height: 30px; }
 .navbar-toggler .ti { line-height: 30px; font-size: 20px; }
