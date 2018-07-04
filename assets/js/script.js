@@ -23,12 +23,12 @@
                 let curAmount = v.c[0]/100;
 
                 let goal = $(this).attr("amount");
-                let width = curAmount / goal;
+                let widthRatio = curAmount / goal;
 
-                let percentage = Math.ceil(width * $(this).parent().width());
-                $(this).width(percentage);
+                let pixelWidth = Math.ceil(widthRatio * $(this).parent().width());
+                $(this).width(pixelWidth);
 
-                $(this).text(curAmount + " ETH");
+                $(this).text(widthRatio + "%");
             });
         }
     });

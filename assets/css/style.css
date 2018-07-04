@@ -42,7 +42,7 @@ Updated	 :	06.13.2018
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Medium.eot"); src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Regular.eot"); src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.tff") format("tff"), url("../fonts/Roboto-Regular.tff") format("tff"), url("../fonts/Roboto-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 /*! 02.0 - RESET */
-body { font-family: "Roboto", sans-serif; color: var(--dark-blue); font-size: 15px; line-height: 1.86; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; }
+body { font-family: "Roboto", sans-serif; color: var(--dark-blue); font-size: 18px; line-height: 1.86; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; }
 
 body { color: #000; background: var(--bg); }
 body.theme-light, body.io-dark-light .section-light, body.io-dark-light .section-light-alt { color: #28384c; background: #fff; }
@@ -752,7 +752,7 @@ select:focus { outline: none; border: none; }
 .site-header .navbar.is-transparent { background: transparent; position: absolute; top: 0; left: 0; width: 100%; }
 .site-header .navbar.is-transparent .navbar-brand .logo-dark { display: none; }
 .site-header .navbar.is-transparent .navbar-brand .logo-light { display: block; }
-.site-header.has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #020207; border-bottom-color: rgba(0, 0, 0, 0.04); }
+.site-header .has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #020207; border-bottom-color: rgba(0, 0, 0, 0.04); }
 .site-header .is-transparent + .banner .banner-content { padding-top: 50px; }
 .site-header .navbar-brand { margin-top: 20px; margin-bottom: 20px; margin-left: 0; z-index: 6; }
 .site-header .scroll-down { color: #fff; font-size: 10px; display: inline-block; text-transform: uppercase; position: absolute; bottom: 120px; right: 20px; transform: rotate(-90deg); z-index: 5; }
@@ -855,9 +855,8 @@ select:focus { outline: none; border: none; }
     .partner-list-s2 { padding-right: 60px; }
     .site-header .scroll-down { bottom: 80px; right: 0; }
     .navbar-collapse { position: relative; }
-    .navbar-collapse:after { opacity: 0; content: ""; position: absolute; left: 0; right: 0; height: 220px; bottom: 0; z-index: -1; background-image: linear-gradient(to bottom, var(--bg) 0%, #1b1e4b 100%); transition: all .4s; }
-    .theme-light .navbar-collapse:after { background-image: linear-gradient(to bottom, #eff6ff 0%, #d6e8ff 100%); }
-    .navbar-collapse.show:after { opacity: 1; }
+    .navbar-collapse:after { opacity: 0; content: ""; position: absolute; left: 0; right: 0; height: 220px; bottom: 0; z-index: -1; background-image: linear-gradient(to bottom, var(--bg) 0%, var(--bg-alt) 100%); transition: all .4s; }
+    .navbar-collapse .show:after { opacity: 1; }
     .navbar .navbar-nav li:hover { opacity: 1; }
     .navbar .navbar-nav li a.nav-link { padding: 0 5px; }
     .navbar .navbar-nav .dropdown-menu { width: 100%; opacity: 1; visibility: visible; display: none; }
@@ -1052,8 +1051,8 @@ select:focus { outline: none; border: none; }
 .countdown-box .icon-list { margin: 10px 0 0; }
 .countdown-box .icon-list li { display: inline-block; margin: 0 5px; }
 .countdown-box .icon-list li .fa { color: #8284a5; font-size: 18px; }
-.countdown-box .next-goal { margin: 10px 0 0; }
-.countdown-box .next-goal li { display: inline-block; margin: 0 5px; font-size: 20px; }
+.countdown-box .next-goal { margin: 0px 0 0; }
+.countdown-box .next-goal li { display: inline-block; margin: 0 0px; font-size: 10px; }
 .countdown-box.countdown-transparent { background: rgba(11, 55, 149, 0.6) !important; }
 .countdown-box.countdown-header { background: transparent; position: relative; }
 .countdown-box.countdown-header:after { position: absolute; top: 50%; left: calc(50% - 40px); content: ""; height: 565px; width: 575px; transform: translate(-50%, -50%); border: 1px solid rgba(122, 15, 255, 0.4); border-radius: 50%; }
