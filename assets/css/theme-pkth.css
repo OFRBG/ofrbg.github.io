@@ -14,7 +14,7 @@ Updated	 :	06.13.2018
 .theme-pkth .countdown-box .countdown-transparent { background: rgba(10, 8, 84, 0.8) !important; }
 .theme-pkth .token-status-point::after { background: rgba(255, 255, 255, 0.5); }
 .theme-pkth .token-status-percent { background: var(--dark-blue); }
-.theme-pkth .loader-section { background: #fcfcfc; }
+.theme-pkth .loader-section { background: var(--bg); }
 .theme-pkth .btn { background: var(--dark-blue); border-radius: 4px; }
 .theme-pkth .btn:hover { background: var(--light-blue); }
 .theme-pkth .btn:before { display: none; }
