@@ -27,14 +27,15 @@ Updated	 :	06.13.2018
 /*! 01.0 - FONTS */
 
 :root{
-    --white:        #EAEAEA;
-    --light-blue:   #00A8E8;
-    --mid-blue:     #007EA7;
-    --dark-blue:    #687887;
-    --bg-blue:      #43575D;
+    --white:            #EAEAEA;
+    --light-blue:       #00A8E8;
+    --light-blue-alt:   #00D8FF;
+    --mid-blue:         #007EA7;
+    --dark-blue:        #687887;
+    --bg-blue:          #43575D;
     
-    --bg:           #181A1C;
-    --bg-alt:       #1D1F21;
+    --bg:               #181A1C;
+    --bg-alt:           #1D1F21;
 }
 
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; }
@@ -752,8 +753,8 @@ select:focus { outline: none; border: none; }
 .site-header .navbar.is-transparent { background: transparent; position: absolute; top: 0; left: 0; width: 100%; }
 .site-header .navbar.is-transparent .navbar-brand .logo-dark { display: none; }
 .site-header .navbar.is-transparent .navbar-brand .logo-light { display: block; }
-.site-header .has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #020207; border-bottom-color: rgba(0, 0, 0, 0.04); }
-.site-header .is-transparent + .banner .banner-content { padding-top: 50px; }
+.site-header.has-fixed .navbar { position: fixed; width: 100%; z-index: 9; top: 0; background: #020207; border-bottom-color: rgba(0, 0, 0, 0.04); }
+.site-header.is-transparent + .banner .banner-content { padding-top: 50px; }
 .site-header .navbar-brand { margin-top: 20px; margin-bottom: 20px; margin-left: 0; z-index: 6; }
 .site-header .scroll-down { color: #fff; font-size: 10px; display: inline-block; text-transform: uppercase; position: absolute; bottom: 120px; right: 20px; transform: rotate(-90deg); z-index: 5; }
 .site-header .scroll-down:after { position: absolute; content: ""; height: 1px; width: 40px; background: #fff; left: -52px; top: 50%; animation: upDown2 2s infinite; }
@@ -1026,12 +1027,12 @@ select:focus { outline: none; border: none; }
 .token-section { position: relative; }
 .token-section:after { content: ""; background: linear-gradient(to top, #1b30a4 15%, rgba(13, 66, 178, 0) 100%); height: 80%; width: 100%; position: absolute; bottom: 0; left: 0; }
 
-.event-info { margin-bottom: -30px; pading-right: 20px; }
+.event-info { margin-bottom: -30px; padding-right: 20px; }
 .event-info .event-single-info { margin-bottom: 30px; position: relative; padding-left: 16px; }
 .event-info .event-single-info:before { content: ""; background: #46bdf4; height: 5px; width: 5px; border-radius: 50%; position: absolute; top: 9px; left: 0; }
 .event-info h6 { margin-bottom: 2px; }
-.event-info p { color: #8284a5; }
-.io-azure .event-info p { color: #7ab9ff; }
+.event-info p { color: var(--light-blue); }
+.event-info a { color: var(--light-blue-alt); }
 
 .countdown-box { -ms-border-radius: 10px; border-radius: 10px; padding: 40px 20px; margin-left: 20px; }
 .section-bg .countdown-box { background: var(--bg); }

@@ -8,7 +8,7 @@ Updated	 :	06.13.2018
 
 .theme-pkth { background: var(--bg); }
 .theme-pkth .countdown-box { font-size: 15px; color: var(--white); background: var(--mid-blue); }
-.theme-pkth .countdown-box h6 { color: var(--white) !important; }
+.theme-pkth .countdown-box h6 { color: var(--white) !important; text-transform: uppercase; font-size: 30px}
 .theme-pkth .countdown-box .countdown-time { color: var(--white); }
 .theme-pkth .countdown-box .countdown-text { color: rgba(255, 255, 255, 0.6); }
 .theme-pkth .countdown-box .countdown-transparent { background: rgba(10, 8, 84, 0.8) !important; }
@@ -29,9 +29,9 @@ Updated	 :	06.13.2018
 .theme-pkth .btn.btn-outline { background: transparent; border: 2px solid var(--mid-blue); }
 .theme-pkth .btn.btn-outline:after { background: transparent; }
 .theme-pkth .btn.btn-outline:hover { background: var(--light-blue); }
-.theme-pkth .site-header .has-fixed .navbar { background: rgba(240, 240, 250, 0.95); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); }
-.theme-pkth .site-header .has-fixed .navbar-nav > li > a { color: var(--bg-blue); }
-.theme-pkth .site-header .has-fixed .navbar .btn.btn-outline { border-color: var(--bg-blue); color: var(--bg-blue); }
+.theme-pkth .site-header.has-fixed .navbar { background: rgba(240, 240, 250, 0.95); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); }
+.theme-pkth .site-header.has-fixed .navbar-nav > li > a { color: var(--bg-blue); }
+.theme-pkth .site-header.has-fixed .navbar .btn.btn-outline { border-color: var(--bg-blue); color: var(--bg-blue); }
 .theme-pkth .navbar-toggler { background: var(--mid-blue); }
 .theme-pkth .section-bg-light .small-heading, .theme-pkth [class*=section-bg-light] .small-heading { color: rgba(21, 17, 177, 0.5); }
 .theme-pkth .section-bg-muscari .text-block ul:not(.btns) li { color: var(--white); }
@@ -69,8 +69,9 @@ Updated	 :	06.13.2018
 .theme-pkth .bdr-top { border-top: 1px solid rgba(255, 255, 255, 0.1); }
 .theme-pkth .img-pad { padding: 18px; }
 .theme-pkth .milestone-bar { padding: 18px; }
-.theme-pkth .site-header.has-fixed .navbar .is-transparent .navbar-brand .logo-dark { display: block; }
-.theme-pkth .site-header.has-fixed .navbar .is-transparent .navbar-brand .logo-light { display: none; }
+.theme-pkth .site-header.has-fixed .navbar.is-transparent .navbar-brand .logo-dark { display: block; }
+.theme-pkth .site-header.has-fixed .navbar.is-transparent .navbar-brand .logo-light { display: none; }
+.theme-pkth .sub-heading { text-align: center; color: var(--white); padding-bottom: 40px }
 
 
 /*! END */
