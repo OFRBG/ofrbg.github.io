@@ -73,5 +73,13 @@ Updated	 :	06.13.2018
 .theme-pkth .site-header.has-fixed .navbar.is-transparent .navbar-brand .logo-light { display: none; }
 .theme-pkth .sub-heading { text-align: center; color: var(--white); padding-bottom: 40px }
 
+.theme-pkth svg{
+    width: 100px;
+    height: 100px;
+    position: fixed; top: 0; left: 0; right: 0; bottom: 0; z-index: 10000;
+}
+
+#loader { display: block; position: relative; left: 50%; top: 50%; margin: -35px 0 0 -35px; transform: scale(2); }
+
 
 /*! END */
