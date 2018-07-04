@@ -18,7 +18,7 @@
 
     // Progress Bar
     $('.lead-bar').each(function () {
-        if(window.web3){
+        if(window.web3 && window.web3.coinbase){
             window.web3.eth.getBalance(window.web3.eth.coinbase, (e,v) => {
                 let curAmount = v.c[0]/100;
 
