@@ -79,7 +79,7 @@ h5, .h5 { font-size: 1.33em; }
 
 h6, .h6 { font-size: 1.07em; }
 
-p { font-size: 1em; }
+p { font-size: 16px; }
 
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary, p.color-secondary { color: #8255fd; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary, p.color-primary { color: #46bdf4; }
@@ -243,7 +243,7 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
 @keyframes fadeIn { from { opacity: 0; }
     to { opacity: 1; } }
 @media only screen and (min-width: 992px) and (max-width: 1199px) { h2, .h2 { font-size: 2em; } }
-@media only screen and (max-width: 991px) { body { font-size: 14px; -webkit-text-size-adjust: 100%; }
+@media only screen and (max-width: 991px) { body { font-size: 16px; -webkit-text-size-adjust: 100%; }
     .container { max-width: 720px; }
     h2, .h2 { font-size: 2em; }
     .res-m-btm { margin-bottom: 30px; } }
