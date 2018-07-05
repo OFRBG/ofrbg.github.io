@@ -33,7 +33,7 @@ Updated	 :	06.13.2018
     --mid-blue:         #007EA7;
     --dark-blue:        #687887;
     --bg-blue:          #43575D;
-    
+
     --bg:               #181A1C;
     --bg-alt:           #1D1F21;
 }
@@ -242,20 +242,29 @@ h1.color-alt-primary, h2.color-alt-primary, h3.color-alt-primary, h4.color-alt-p
     to { opacity: 1; transform: none; } }
 @keyframes fadeIn { from { opacity: 0; }
     to { opacity: 1; } }
-@media only screen and (min-width: 992px) and (max-width: 1199px) { h2, .h2 { font-size: 2em; } }
-@media only screen and (max-width: 991px) { body { font-size: 16px; -webkit-text-size-adjust: 100%; }
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    h2, .h2 { font-size: 2em; } 
+}
+@media only screen and (max-width: 991px) {
+    body { font-size: 16px; -webkit-text-size-adjust: 100%; }
     .container { max-width: 720px; }
     h2, .h2 { font-size: 2em; }
-    .res-m-btm { margin-bottom: 30px; } }
-@media only screen and (max-width: 767px) { .container { padding-left: 20px; padding-right: 20px; max-width: 100%; }
+    .res-m-btm { margin-bottom: 30px; } 
+}
+@media only screen and (max-width: 767px) {
+    .container { padding-left: 20px; padding-right: 20px; max-width: 100%; }
     .accordion .panel-title { font-size: 1.125em; font-weight: 400; }
-    h1, .h1 { font-size: 2.1em; } }
-@media only screen and (max-width: 480px) { body { min-width: 320px; }
-    h1, .h1, .heading-lg, .heading-lg-lead { font-size: 1.5em; }
+    h1, .h1 { font-size: 2.5em; }
+}
+@media only screen and (max-width: 480px) {
+    body { min-width: 320px; }
+    h1, .h1, .heading-lg, .heading-lg-lead { font-size: 1.7em; }
     h2, .h2 { font-size: 1.4em; }
     h3, .h3 { font-size: 1.3em; }
-    h5, .h5 { font-size: 1em; } }
+    h5, .h5 { font-size: 1em; }
+}
 @media only screen and (max-width: 375px) { .btn + .btn { margin-top: 5px; } }
+
 /*! 03.0 - UTILITY */
 img { outline: 0; border: 0 none; max-width: 100%; height: auto; vertical-align: top; -ms-border-radius: 5px; border-radius: 5px; }
 img + h2, img h3, img h4 { margin-top: 15px; }

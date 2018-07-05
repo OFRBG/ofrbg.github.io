@@ -7,10 +7,10 @@ Updated	 :	06.13.2018
 
 
 .theme-pkth { background: var(--bg); font-weight: 100}
-.theme-pkth .countdown-box { font-size: 16px; color: var(--white); background: var(--mid-blue); }
-.theme-pkth .countdown-box h6 { color: var(--white) !important; text-transform: uppercase; font-size: 30px}
+.theme-pkth .countdown-box { font-size: 18px; color: var(--white); background: var(--mid-blue); margin-top: 40px }
+.theme-pkth .countdown-box h6 { color: var(--white) !important; text-transform: uppercase; font-size: 30px; }
 .theme-pkth .countdown-box .countdown-time { color: var(--white); }
-.theme-pkth .countdown-box .countdown-text { color: rgba(255, 255, 255, 0.6); }
+.theme-pkth .countdown-box p { font-size: 18px; }
 .theme-pkth .countdown-box .countdown-transparent { background: rgba(10, 8, 84, 0.8) !important; }
 .theme-pkth .token-status-point::after { background: rgba(255, 255, 255, 0.5); }
 .theme-pkth .token-status-percent { background: var(--dark-blue); }
@@ -96,7 +96,8 @@ Updated	 :	06.13.2018
     background-color: var(--bg);
 }
 
-#loader { display: block; position: relative; left: 50%; top: 50%; margin: -35px 0 0 -35px; transform: scale(1); }
+#loader { display: block; position: absolute; left: 50%; top: 50%; margin: -25px 0 0 -25px; transform: scale(1); z-index: 3000; }
+#loader-blur { width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); z-index: 3001; }
 
 
 /*! END */
