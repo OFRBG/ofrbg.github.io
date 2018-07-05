@@ -29,7 +29,7 @@ Updated	 :	06.13.2018
 :root{
     --white:            #EAEAEA;
     --light-blue:       #00A8E8;
-    --light-blue-alt:   #00D8FF;
+    --light-blue-alt:   #00E8FF;
     --mid-blue:         #007EA7;
     --dark-blue:        #687887;
     --bg-blue:          #43575D;
@@ -2485,16 +2485,6 @@ select:focus { outline: none; border: none; }
 @media only screen and (max-width: 767px) { .subscription-form .btn { position: relative; margin-top: 20px; }
     .subscription-form .input-round { text-align: center; } }
 
-/** Percent Bar **/
-
-.bg-funded {
-    color: var(--bg);
-    background-color: var(--light-blue);
-}
-
-.bg-unfunded {
-    background-color: var(--bg);
-}
 
 /* COLORS */
 .azure   { background: #38B1CC; }
