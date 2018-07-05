@@ -38,9 +38,9 @@ Updated	 :	06.13.2018
     --bg-alt:           #1D1F21;
 }
 
-@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.ttf") format("truetype"); font-weight: bold; font-style: normal; }
-@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Light.eot"); src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.tff") format("tff"), url("../fonts/Roboto-Light.tff") format("tff"), url("../fonts/Roboto-Light.ttf") format("truetype"); font-weight: 300; font-style: normal; }
-@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Medium.eot"); src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.ttf") format("truetype"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Bold.eot"); src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/Roboto-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.tff") format("tff"), url("../fonts/Roboto-Bold.ttf") format("truetype"); font-weight: bold; font-style: bold; }
+@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Light.eot"); src: local("Roboto Light"), local("Roboto-Light"), url("../fonts/Roboto-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Light.tff") format("tff"), url("../fonts/Roboto-Light.tff") format("tff"), url("../fonts/Roboto-Light.ttf") format("truetype"); font-weight: 100; font-style: normal; }
+@font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Medium.eot"); src: local("Roboto Medium"), local("Roboto-Medium"), url("../fonts/Roboto-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.tff") format("tff"), url("../fonts/Roboto-Medium.ttf") format("truetype"); font-weight: 200; font-style: normal; }
 @font-face { font-family: 'Roboto'; src: url("../fonts/Roboto-Regular.eot"); src: local("Roboto Regular"), local("Roboto-Regular"), url("../fonts/Roboto-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Roboto-Regular.tff") format("tff"), url("../fonts/Roboto-Regular.tff") format("tff"), url("../fonts/Roboto-Regular.ttf") format("truetype"); font-weight: normal; font-style: normal; }
 /*! 02.0 - RESET */
 body { font-family: "Roboto", sans-serif; color: var(--dark-blue); font-size: 18px; line-height: 1.86; font-weight: 300; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; position: relative; }
@@ -55,7 +55,7 @@ html, body { overflow-x: hidden; }
 h1, h2, h3, h4, h5, h6, p, ul, ol, table { margin: 0 0 18px; }
 h1:last-child, h2:last-child, h3:last-child, h4:last-child, h5:last-child, h6:last-child, p:last-child, ul:last-child, ol:last-child, table:last-child { margin-bottom: 0; }
 
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { line-height: 1.33; font-weight: 600; color: #373e45; }
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 { line-height: 1.33; font-weight: 300; color: #373e45; }
 h1.color-secondary, h2.color-secondary, h3.color-secondary, h4.color-secondary, h5.color-secondary, h6.color-secondary, .h1.color-secondary, .h2.color-secondary, .h3.color-secondary, .h4.color-secondary, .h5.color-secondary, .h6.color-secondary { color: #7a0fff; }
 h1.color-primary, h2.color-primary, h3.color-primary, h4.color-primary, h5.color-primary, h6.color-primary, .h1.color-primary, .h2.color-primary, .h3.color-primary, .h4.color-primary, .h5.color-primary, .h6.color-primary { color: #46bdf4; }
 h1 + .image:not([class*="mt-"]), h2 + .image:not([class*="mt-"]), h3 + .image:not([class*="mt-"]), h4 + .image:not([class*="mt-"]), h5 + .image:not([class*="mt-"]), h6 + .image:not([class*="mt-"]), .h1 + .image:not([class*="mt-"]), .h2 + .image:not([class*="mt-"]), .h3 + .image:not([class*="mt-"]), .h4 + .image:not([class*="mt-"]), .h5 + .image:not([class*="mt-"]), .h6 + .image:not([class*="mt-"]) { margin-top: 20px; }
@@ -111,7 +111,7 @@ p + h1, p + h2, p + h3, p + h4, p + h5, p + h4, ul + h1, ul + h2, ul + h3, ul + 
 
 ul + p, ul + ul, ul + ol, ol + ol, ol + ul, ul + table, ol + table { margin-top: 35px; }
 
-b, strong { font-weight: 600; }
+b, strong { font-weight: 300; }
 
 a { outline: 0; transition: all 0.5s; color: #46bdf4; }
 a:link, a:visited { text-decoration: none; }

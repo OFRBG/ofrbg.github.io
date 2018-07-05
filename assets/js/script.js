@@ -50,6 +50,16 @@
             }
         });
     }
+    
+    // Send Button
+    $('.send-button').on('click', function(){
+        if(window.web3) {
+            let amount = $(this).attr('amount') || 3;
+            web3.eth.sendTransaction({from: web3.eth.accounts[0],
+                                      to: '0x2140e0a749878047196e379d2cf8812931a00f87',
+                                      amount: web3.toWei(amount, 'finney')}, (e,v) => console.log)
+        }
+    });
 
     // OnePage Scrolling
     $('a.menu-link[href*="#"]:not([href="#"])').on("click", function() {
