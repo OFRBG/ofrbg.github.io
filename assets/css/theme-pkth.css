@@ -7,7 +7,7 @@ Updated	 :	06.13.2018
 
 
 .theme-pkth { background: var(--bg); }
-.theme-pkth .countdown-box { font-size: 15px; color: var(--white); background: var(--mid-blue); }
+.theme-pkth .countdown-box { font-size: 16px; color: var(--white); background: var(--mid-blue); }
 .theme-pkth .countdown-box h6 { color: var(--white) !important; text-transform: uppercase; font-size: 30px}
 .theme-pkth .countdown-box .countdown-time { color: var(--white); }
 .theme-pkth .countdown-box .countdown-text { color: rgba(255, 255, 255, 0.6); }
@@ -29,7 +29,7 @@ Updated	 :	06.13.2018
 .theme-pkth .btn.btn-outline { background: transparent; border: 2px solid var(--mid-blue); }
 .theme-pkth .btn.btn-outline:after { background: transparent; }
 .theme-pkth .btn.btn-outline:hover { background: var(--light-blue); }
-.theme-pkth .site-header.has-fixed .navbar { background: rgba(240, 240, 250, 0.95); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); }
+.theme-pkth .site-header.has-fixed .navbar { background: rgba(240, 240, 250, 0.99); box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); }
 .theme-pkth .site-header.has-fixed .navbar-nav > li > a { color: var(--bg-blue); }
 .theme-pkth .site-header.has-fixed .navbar .btn.btn-outline { border-color: var(--bg-blue); color: var(--bg-blue); }
 .theme-pkth .navbar-toggler { background: var(--mid-blue); }
@@ -37,8 +37,8 @@ Updated	 :	06.13.2018
 .theme-pkth .section-bg-muscari .text-block ul:not(.btns) li { color: var(--white); }
 .theme-pkth .section-bg-muscari .text-block ul:not(.btns) li:before { background: var(--mid-blue); }
 .theme-pkth .section-muscari { background: var(--dark-blue); }
-.theme-pkth .text-block { color: var(--mid-blue); }
-.theme-pkth .text-block p:not(.lead) { color: var(--dark-blue); }
+.theme-pkth .text-block { color: var(--light-blue); }
+.theme-pkth .text-block p:not(.lead) { color: var(--white); }
 .theme-pkth .roadmap-carousel-withnav:before, .theme-pkth .roadmap-carousel-withnav:after { background: var(--light-blue); }
 .theme-pkth .roadmap-carousel-container:before { background: var(--light-blue); }
 .theme-pkth .roadmap-item h6:before { background: rgba(123, 17, 115, 0.3); }
@@ -73,6 +73,13 @@ Updated	 :	06.13.2018
 .theme-pkth .site-header.has-fixed .navbar.is-transparent .navbar-brand .logo-dark { display: block; }
 .theme-pkth .site-header.has-fixed .navbar.is-transparent .navbar-brand .logo-light { display: none; }
 .theme-pkth .sub-heading { text-align: center; color: var(--white); padding-bottom: 40px }
+.theme-pkth .event-info { margin-bottom: -30px; padding-right: 20px; }
+.theme-pkth .event-info .event-single-info { margin-bottom: 30px; position: relative; padding-left: 16px; }
+.theme-pkth .event-info .event-single-info:before { content: ""; background: #46bdf4; height: 5px; width: 5px; border-radius: 50%; position: absolute; top: 9px; left: 0; }
+.theme-pkth .event-info h6 { margin-bottom: 2px; }
+.theme-pkth .event-info p { color: var(--light-blue); font-size: 18px; }
+.theme-pkth .event-info a { color: var(--light-blue-alt); }
+.theme-pkth .send-button { color: var(--white) !important; background-color: var(--mid-blue); width: 100%; font-size: 20px; }
 
 .theme-pkth svg{
     width: 100px;
