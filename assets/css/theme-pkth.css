@@ -96,6 +96,29 @@ Updated	 :	06.13.2018
     background-color: var(--bg);
 }
 
+.theme-pkth .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    padding: 5px;
+    z-index: 1000;
+}
+
+.theme-pkth .footer-img {
+    height: 50px;
+    width: 90px;
+    -webkit-transition: width .2s, height .2s; 
+    transition: width .2s, height .2s;
+}
+
+.theme-pkth .footer-img:hover {
+    height: 60px;
+    width: 110px;
+}
+
 #loader { display: block; position: absolute; left: 50%; top: 50%; margin: -25px 0 0 -25px; transform: scale(1); z-index: 3000; }
 #loader-blur { width: 100%; height: 100%; background-color: rgba(0, 0, 0, .5); z-index: 3001; }
 
